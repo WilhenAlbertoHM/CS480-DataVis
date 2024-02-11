@@ -37,47 +37,47 @@ body {
     width: 30em;
     height: 23em;
     top: 11em;
-    right: 22em;
+    right: 39.5em;
 }
 
 .dimensions-info {
     width: 25em;
     height: 26em;
     top: 13em;
-    left: 25em;
+    left: 42em;
 }
 
 .cost-info {
     width: 30em;
     height: 24em;
     top: 34.5em;
-    right: 22.5em;
+    right: 39.5em;
 }
 
 .lights-info {
     width: 28em;
     height: 19em;
     top: 39em;
-    left: 25.3em;
+    left: 42.5em;
 }
 
 .river-info {
     width: 18em;
-    height: 20em;
+    height: 21em;
     bottom: 0;
-    left: 30em;
+    left: 48em;
 }
 
 .td-garden-info {
     width: 32em;
     height: 16em;
     bottom: 2em;
-    right: 45em;
+    right: 62em;
 }
 
 .lanes-info {
     width: 15em;
     height: 18em;
     bottom: 0;
-    right: 30em;
+    right: 48em;
 }
