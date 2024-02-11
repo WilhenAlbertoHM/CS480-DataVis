@@ -2,6 +2,8 @@ body {
     background: linear-gradient(90deg, rgb(23, 20, 87) 0%, rgb(44, 3, 120) 60%, rgb(102, 61, 252) 100%);
     margin: 0;
     padding: 0;
+    height: 100vh;
+    overflow: hidden !important; 
 }
 
 .infographic {
@@ -29,6 +31,7 @@ body {
 .tooltip:hover {
     transform: scale(1.02);
     z-index: 1;
+
 }
 
 .widest-bridge-info {
