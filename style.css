@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(90deg, rgb(23, 20, 87) 0%, rgb(44, 3, 120) 60%, rgb(102, 61, 252) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.infographic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-infographic {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    padding: 0 1em;
+}
+
+.tooltip {
+    padding: 1em;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.tooltip:hover {
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+.widest-bridge-info {
+    width: 30em;
+    height: 23em;
+    top: 14%;
+    left: 56%;
+}
+
+.dimensions-info {
+    width: 25em;
+    height: 26em;
+    top: 16%;
+    right: 56%;
+}
+
+.cost-info {
+    width: 30em;
+    height: 24em;
+    top: 43%;
+    left: 55%;
+}
+
+.lights-info {
+    width: 28em;
+    height: 19em;
+    top: 48%;
+    right: 54%;
+}
+
+.river-info {
+    width: 18em;
+    height: 21em;
+    bottom: 0;
+    right: 58%;
+}
+
+.td-garden-info {
+    width: 32em;
+    height: 16em;
+    bottom: 2%;
+    left: 39%;
+}
+
+.lanes-info {
+    width: 15em;
+    height: 16em;
+    bottom: 0;
+    left: 60%;
+}
